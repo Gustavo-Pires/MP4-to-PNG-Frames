@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 
 def processar_video():
-    # Obtenha o arquivo de vídeo selecionado
+    # Obtenha o arquivo de vídeo selecionado 
     video_filename = filedialog.askopenfilename(filetypes=[("Arquivos de vídeo", "*.mp4")])
 
     if not video_filename:
